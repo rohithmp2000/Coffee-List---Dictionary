@@ -211,6 +211,6 @@ coffee_type=(input("enter the title = "))
 b = next((item for item in a if item["title"] == coffee_type), None)
 if b in a:
     print("Coffee found")
-    print(b["ingredients"])
+    print("Ingredients are ", b["ingredients"] )
 else:
     print("Coffee not found")
